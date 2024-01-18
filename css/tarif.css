@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar1{
+    background: linear-gradient(180deg, #000 67.92%, #9B7D44 100%);
+}
+.abu h1{
+    color: #FFF;
+   font-family: 'Amiko', sans-serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+.abu button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid #fff;
+    border-radius: 35px;
+    color: #FFF;
+    font-size: 32px;
+    background-color: #000;
+}
+.abu{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    gap: 10px;
+    flex-wrap: wrap !important;
+}
+.navbar_div{
+    margin-top: 100px;
+    width: 650px;
+    /* height: 870px; */
+    border-radius: 100px;
+    background: rgba(255, 163, 11, 0.42);
+}
+.navbar_kotta{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.navbar_div h1{
+    text-align: center;
+    color: #FFF;
+   font-family: 'Amiko', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300 !important;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    margin-top: 20px;
+}
+.navbar_div img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    margin-top: 70px;
+}
+.navbar_div h2{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+   font-family: 'Amiko', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+.navbar_div button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 35px;
+    background: #FFA30B;
+    color: black;
+    font-size: 32px;
+    font-weight: 400;
+    border: none;
+    text-align: center;
+    margin-top: 250px !important;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.oxirgi_div button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 35px;
+    background: #FFA30B;
+    font-weight: 400;
+    color: #000;
+   font-family: 'Amiko', sans-serif;
+    font-size: 32px;
+    border: none;
+    margin-top: 80px;
+}
+.oxirgi_div div{
+    display: block;
+}
+.oxirgi_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.oxirgi_div h2{
+    color: #FFF;
+     font-weight: 400;
+    text-align: center;
+   font-family: 'Amiko', sans-serif;
+    font-size: 32px;
+}
+.oxirgi_div img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.oxirgi_divv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 82%;
+    gap: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+.oxir_button button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 35px;
+    background: #FFA30B;
+    border: none;
+    color: #000;
+    font-weight: 400;
+   font-family: 'Amiko', sans-serif;
+    font-size: 32px;
+}
+.oxirgi_text h2{
+    color: #FFF;
+    text-align: center;
+   font-family: 'Amiko', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.oxirgi_text img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

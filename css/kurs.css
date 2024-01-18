@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.kurs_1 {
+  box-shadow: inset 0px -100px 500px rgba(255, 161, 11, 0.342);
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.card1_img {
+  width: 23%;
+  min-width: 300px;
+}
+.card1_text {
+  width: 60%;
+}
+.card1_text h1 {
+  font-family: "Amiko", sans-serif;
+  font-size: 43px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+}
+.card1_text p {
+  font-family: "Amiko", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0em;
+
+  color: rgba(255, 255, 255, 1);
+}
+.card1_text button {
+  background: rgba(255, 163, 11, 1);
+  border: none;
+  padding: 18px 30px 18px 30px;
+  border-radius: 35px;
+  gap: 10px;
+  font-family: "Amiko", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+
+.kurs_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 550px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.kurs_2_text {
+  width: 55%;
+}
+.kurs_2 img {
+  width: 35%;
+  min-width: 300px;
+}
+.kurs_2_text h1 {
+  font-family: "Amiko", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 163, 11, 1);
+}
+.kurs_2_text p {
+  font-family: "Amiko", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.kurs_3 {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.kurs_3 h1 {
+  font-family: "Amiko", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 163, 11, 1);
+}
+.kurs_3 .kurs3_cards {
+  display: flex;
+  justify-content: space-around;
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.kurs_3 .kurs3_cards p {
+  font-family: "Amiko", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.kurs3_card {
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.kurs4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(255, 163, 11, 1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.kurs4 h1 {
+  font-family: "Amiko", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: black;
+}
+.kurs4 p {
+  font-family: "Amiko", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+.kurs4 button {
+  padding: 18px 40px 18px 40px;
+  border-radius: 35px;
+  gap: 10px;
+  color: rgba(255, 163, 11, 1);
+  font-family: "Amiko", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: black;
+  border: none;
+}
+.kurs4_img_div {
+    width: 400px;
+    position: relative;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.kurs4_img_div1{
+    width: 97px;
+    position: absolute;
+    top: 0px;
+    right: 190px;
+}
+.kurs4_img_div2{
+    width: 182px;
+    position: absolute;
+    top:70px;
+    right:0px;
+}
+.kurs4_img_div3{
+    position: absolute;
+    top: 50px;
+    left: -70px;
+    width: 138px;
+}
+.kurs4_img_div4{
+    width: 116px;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+}
+.kurs4_img_div10{
+    width: 400px;
+    position: relative;
+    position: absolute;
+    right: 0px;
+}
+.kurs4_img_div11{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 138px;
+
+}
+.kurs4_img_div12{
+    position: absolute;
+    right: 90px;
+    top: 10px;
+    width: 96px;
+    
+}
+.kurs4_img_div13{
+    position: absolute;
+    right: -40px;
+    top: 40px;
+    width: 116px;
+ 
+}
+
