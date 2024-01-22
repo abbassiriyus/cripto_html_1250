@@ -8,169 +8,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap');
-*{
-    padding: 0px;
-    margin: 0px;
-}Часто задаваемые вопросы 
-.navbar-expand-lg .navbar-brand img{
-height: 55px;
-}
-.navbar-expand-lg .navbar-brand{
-    font-family: 'Comfortaa', sans-serif;
-font-weight: 700;
-font-size: 1.5vw;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-.navbar-expand-lg .nav-link{
-font-family: 'Amiko', sans-serif;
-font-size: 20px;
-font-weight: 600;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: left;
-color: black;
-
-}
-.navbar-expand-lg .nav-link i{
-    font-size: 30px;
-    position: relative;
-    top: 4px;
-    color: black;
-}
-.navbar-expand-lg .navbar_btn{
-    padding: 8px 16px 8px 16px;
-    border-radius: 35px;
-background-color: black;
-color: #F39D12;
-}
-.link2{
-    display: none !important;
-}
-
-.navbar2{
-    background: #FFA30B78;
-
-}
-.navbar2 ul{
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: auto;
-    align-items: center;
-    height: 50px;
-    width: 90%;
-    list-style: none;
-}
-.navbar2 ul a{
-    text-decoration: none;
-    font-family: 'Amiko', sans-serif;
-color: white;
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-@media (max-width:1200px) and (min-width:991px){
-    .navbar-expand-lg .nav-link{
-        font-family: 'Amiko', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: black;
-    
-    }
-}
-@media(max-width:991px){
-    .navbar-expand-lg .navbar-brand{
-        font-size: 3vw;
-    }
-  
-    .link2{
-        display: block !important;
-    } 
-    .navbar2{
-        display: none;
-    }
-}
-@media (max-width:600px){
-    .navbar-expand-lg .navbar-brand img{
-        height: 40px;
-    }
-    .navbar-expand-lg .navbar-brand{
-        font-size: 4vw;
-    }
-}
-
-
-
-
-
-
-
-    </style>
+<link rel="stylesheet" href="../css/navbar.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="../image/Vector.png" alt="image"> CryptoMaster Academy</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-          
-              <li class="nav-item">
-                <a class="nav-link link2" href="#">о нас</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="#">платформа</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="#">курсы</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="#">отзывы</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="#">соцсети </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="#">контакты</a>
-              </li>    <li class="nav-item">
-                <a class="nav-link" href="#"> <i class='bx bxs-phone'></i> +7 (912)-249-12-01</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class='bx bx-envelope' ></i> filatpirat@gmail.com</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button class="btn navbar_btn" type="submit">записаться на курс</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+  <div class="navbar_clone">
+    <div class="logo_clone"><img class="img_clone" src="../image/Vector.png" alt="image"> CryptoMaster Academy</div>
+    <ul class="contact_clone">
+      <li><i class='bx bxs-phone'></i> +7 (912)-249-12-01</li>
+      <li><i class='bx bx-envelope' ></i>  filatpirat@gmail.com</li>
+    </ul>
+    <button class="button_clone">записаться на курс</button>
+  </div>
+ 
 <div class="navbar2">
 <ul>
     <li><a href="">о нас</a></li>
     <li><a href="">платформа</a></li>
     <li><a href="">курсы</a></li>
-    <li><a href="">отзывы</a> </li>
+    <li><a href="">отзывы</a></li>
     <li><a href="">соцсети</a></li>
-    <li><a href="">контакты</a> </li>
+    <li><a href="">контакты</a></li>
 </ul>
 
 </div>
-
+<select class="select" name="" id="">
+  <option value=""><a href="#">о нас</a></option>
+  <option value=""><a href="#">платформа</a></option>
+  <option value=""><a href="#">курсы</a></option>
+  <option value=""><a href="#">отзывы</a></option>
+  <option value=""><a href="#">соцсети</a></option>
+  <option value=""><a href="#">контакты</a></option>
+  
+</select>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
 
 </body>

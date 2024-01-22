@@ -4,62 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+<link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="./image/Vector.png" alt="image"> CryptoMaster Academy</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-          
-              <li class="nav-item">
-                <a class="nav-link link2" style="color: black !important; border-bottom: 3px solid black;padding-bottom: 0px;"  href="#">о нас</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="./pages/platforma.html">платформа</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="./pages/kurs.html">курсы</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="./pages/carousel.html">отзывы</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="#">соцсети</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link2" href="./pages/xarita.html">контакты</a>
-              </li>    <li class="nav-item">
-                <a class="nav-link" href="#"> <i class='bx bxs-phone'></i> +7 (912)-249-12-01</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class='bx bx-envelope' ></i> filatpirat@gmail.com</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button class="btn navbar_btn" type="submit">записаться на курс</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+ 
+  <div class="navbar_clone">
+    <div class="logo_clone"><img class="img_clone" src="../image/Vector.png" alt="image"> CryptoMaster Academy</div>
+    <ul class="contact_clone">
+      <li><i class='bx bxs-phone'></i> +7 (912)-249-12-01</li>
+      <li><i class='bx bx-envelope' ></i>  filatpirat@gmail.com</li>
+    </ul>
+    <button class="button_clone">записаться на курс</button>
+  </div>
+ 
 <div class="navbar2">
 <ul>
-    <li><a style="color: black !important; border-bottom: 3px solid black;padding-bottom: 0px;" href="#">о нас</a></li>
-    <li><a href="./pages/platforma.html">платформа</a></li>
-    <li><a href="./pages/kurs.html">курсы</a></li>
-    <li><a href="./pages/carousel.html">отзывы</a> </li>
+    <li><a href="">о нас</a></li>
+    <li><a href="">платформа</a></li>
+    <li><a href="">курсы</a></li>
+    <li><a href="">отзывы</a></li>
     <li><a href="">соцсети</a></li>
-    <li><a href="./pages/xarita.html">контакты</a> </li>
+    <li><a href="">контакты</a></li>
 </ul>
+
 </div>
+<select class="select" value="1" name="" id="">
+  <option value="1"><a href="#">о нас</a></option>
+  <option value=""><a href="#">платформа</a></option>
+  <option value=""><a href="#">курсы</a></option>
+  <option value=""><a href="#">отзывы</a></option>
+  <option value=""><a href="#">соцсети</a></option>
+  <option value=""><a href="#">контакты</a></option>
+  
+</select>
+
+
+
+
 
 <header>
     <div class="text">
@@ -95,7 +79,7 @@
   <h3>Выбири свой уровень обучения</h3>
   <p>Смотрите видео-лекции в удобное для вас время,
      обучайтесь на тренажере, обсуждайте полученные знания
-      <br> с ментором <br>
+      <br class="br12"> с ментором <br class="br12">
     или проходите курс с гибким расписанием.
    На нашей платформе каждый найдет подходящий формат.</p>
    <a href="./pages/kurs.html"> <button style="margin-bottom: 30px;" class="button-worring">к курсам</button></a>

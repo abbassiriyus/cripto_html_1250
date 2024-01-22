@@ -8,105 +8,6 @@ body{
     background-color: black !important;
 }
 
-/* navbar  */
-.navbar-expand-lg{
-    background: #F39D12;
-}
-.navbar-expand-lg .navbar-brand img{
-height: 55px;
-}
-.navbar-expand-lg .navbar-brand{
-    font-family: 'Comfortaa', sans-serif;
-font-weight: 700;
-font-size: 1.5vw;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-.navbar-expand-lg .nav-link{
-font-family: 'Amiko', sans-serif;
-font-size: 20px;
-font-weight: 600;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: left;
-color: black;
-
-}
-.navbar-expand-lg .nav-link i{
-    font-size: 30px;
-    position: relative;
-    top: 4px;
-    color: black;
-}
-.navbar-expand-lg .navbar_btn{
-    padding: 8px 16px 8px 16px;
-    border-radius: 35px;
-background-color: black;
-color: #F39D12;
-}
-.link2{
-    display: none !important;
-}
-
-.navbar2{
-    background: #FFA30B78;
-
-}
-.navbar2 ul{
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: auto;
-    align-items: center;
-    height: 50px;
-    width: 90%;
-    list-style: none;
-}
-.navbar2 ul a{
-    text-decoration: none;
-    font-family: 'Amiko', sans-serif;
-color: white;
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-@media (max-width:1200px) and (min-width:991px){
-    .navbar-expand-lg .nav-link{
-        font-family: 'Amiko', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: black;
-    
-    }
-}
-@media(max-width:991px){
-    .navbar-expand-lg .navbar-brand{
-        font-size: 3vw;
-    }
-  
-    .link2{
-        display: block !important;
-    } 
-    .navbar2{
-        display: none;
-    }
-}
-@media (max-width:600px){
-    .navbar-expand-lg .navbar-brand img{
-        height: 40px;
-    }
-    .navbar-expand-lg .navbar-brand{
-        font-size: 4vw;
-    }
-}
 
 
 
@@ -160,7 +61,7 @@ margin-bottom: 10%;
     color: white;
 }
 header .text h4{
-    font-family: Amiko;
+    font-family: 'Amiko', sans-serif;
     font-size: 1.8vw;
     font-weight: 400;
     letter-spacing: 0em;
@@ -180,10 +81,18 @@ font-weight: 500;
 }
 
 @media (max-width:991px) {
+header{
+    padding: 0px;
+    position: relative;
+}
   header .text{
-    width: 80%;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0px;
+    padding-top: 10%;
 text-align: center;
-
+background-color: #000000b2;
+position: relative;
 }
 header .text h3{
     margin: 10px;
@@ -191,6 +100,11 @@ header .text h3{
 header img{
     width: 60%;
     max-width: 500px;
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+    left: 20%;
+    right: 0px;
 }  
 .button-worring{
     padding: 5px 30px 5px 30px;
@@ -246,6 +160,16 @@ text-align: center;
     text-align: center;
     color: #FFA30B;
 }
+@media(max-width:991px){
+
+    .section{
+        box-shadow:  inset 0px -100px 200px #FFA30B;
+    }
+    .br12{
+display: none;
+    }
+
+}
 @media (max-width:650px) {
     .section h1{
         font-size: 40px;
@@ -267,6 +191,8 @@ align-items: center;
 flex-wrap: wrap;
 justify-content: space-around;
 width: 90%;
+padding-top: 30px;
+padding-bottom: 30px;
 margin: auto;
    }
    .kurs_text{
@@ -306,11 +232,12 @@ margin: auto;
         width: 70%;
         min-width: 300px;
        }
+
     
    }
    @media(max-width:521px){
     .kurs_text h3{
-        font-size: 32px;
+        font-size: 23px;
     }
     .kurs_text p{
         font-size: 15px;
@@ -425,6 +352,21 @@ text-align: center;
     .text_otzif .orzif_text_h1{
        font-size: 30px;
     }
+    .text_otzif{
+        border: none;
+        background: linear-gradient(180deg, rgba(255, 163, 11, 0.42) 16.5%, rgba(255, 163, 11, 0) 100%);
+
+    }
+    .text_otzif .orzif_text_h1 span{
+        background-color: #f39d1200;
+       }
+    .text_otzif .orzif_text_h1{
+        margin: 0px;
+        padding: 0px;
+        background-color: #f39d1200;
+        width: 100%;
+        font-size: 23px;
+    }
     .text_otzif p{
         font-size: 15px;
     }
@@ -435,17 +377,20 @@ text-align: center;
         width: 8vw;
         left: 0px;
         height: auto;
+        display: none;
     }
     .dollor_img4{
         width: 8vw;
         right: 10vw;
         height: auto;
+        display: none;
     }
     .dollor_img3{
         width: 8vw;
         left: 12vw;
         height: auto;
         z-index: -1;
+        display: none;
     }
     .dollor_img6{
         width: 8vw;
@@ -453,6 +398,7 @@ text-align: center;
         right:  12vw;
         height: auto;
         z-index: -1;
+        display: none;
     }
    }
    @media(max-width:470px){
@@ -523,6 +469,16 @@ justify-content: center;
 @media(max-width:800px){
     .text_contact{
         width: 90%;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        background-color: #f39d1291;
+        min-height: 300px;
+    }
+    .contact_img{
+        position: absolute;
+        z-index: 0;
+        width: 80%;
     }
     .contact h5{
         font-size: 15px;
