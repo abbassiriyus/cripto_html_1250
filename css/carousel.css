@@ -38,6 +38,7 @@
 .carusel_four_card_div_text{
     display: flex;
     align-items: center;
+    font-family: 'Amiko', sans-serif;
     gap: 1.042vw;
     margin-left: 1.042vw;
 }
@@ -47,10 +48,12 @@
     font-weight: 400;
     font-family: Amiko;
     line-height: 2.501vw;
+    font-family: 'Amiko', sans-serif;
 }
 .carusel_four_card_div_text p{
     color: #FFFFFF;
     font-weight: 400;
+    font-family: 'Amiko', sans-serif;
     font-size: 1.667vw;
     line-height: 2.167vw;
 }
@@ -60,6 +63,7 @@
     font-size: 1.667vw;
     line-height: 2.167vw;
     margin-top: 0.521vw;
+    font-family: 'Amiko', sans-serif;
 }
 .swiper-button-prev img,.swiper-button-next img{
     width: 100%;
@@ -77,4 +81,32 @@
 }
 #mySwiper1{
     display: none !important;
+}
+.carousel1{
+    display: none;
+}
+@media(max-width:991px){
+    .mySwiper{
+        display: none !important;
+    }
+    .carousel1{
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .carousel1 .carusel_four_card_div_desc{
+font-size: 15px;
+line-height:15px;
+    }
+    .carusel_div  .carusel_four_card_div{
+        max-width: 600px !important;
+        width: 45% !important;
+        min-width: 300px;
+        margin-bottom: 20px;
+        height: auto;
+        padding: 20px;
+    }
+    .carusel_four_card_div_text h1{
+        font-size: 23px;
+    }
 }
