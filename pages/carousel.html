@@ -24,22 +24,36 @@
  
 <div class="navbar2">
 <ul>
-    <li><a href="">о нас</a></li>
-    <li><a href="">платформа</a></li>
-    <li><a href="">курсы</a></li>
-    <li><a href="">отзывы</a></li>
-    <li><a href="">соцсети</a></li>
-    <li><a href="">контакты</a></li>
+    <li><a href="../index.html">о нас</a></li>
+       <li><a href="./platforma.html">платформа</a></li>
+
+     <li><a href="./kurs.html">курсы</a></li>
+
+        <li><a href="./carousel.html">отзывы</a></li>
+
+     <li><a href="#">соцсети</a></li>
+    <li><a href="./xarita.html">контакты</a></li>
+
 </ul>
 
 </div>
-<select class="select" name="" id="">
-  <option value=""><a href="#">о нас</a></option>
-  <option value=""><a href="#">платформа</a></option>
-  <option value=""><a href="#">курсы</a></option>
-  <option value=""><a href="#">отзывы</a></option>
+<script>
+
+  function data1(){
+    var a=document.querySelector('#page_route').value
+    window.location=a
+  }
+</script>
+<select class="select"  onchange="data1()"  name="" id="page_route">
+    <option value="/index.html"><a href="../index.html">о нас</a></option>
+   <option value="/pages/platforma.html"><a href="./platforma.html">платформа</a></option>
+  <option value="/pages/kurs.html"><a href="./kurs.html">курсы</a></option>
+
+
+    <option selected value="/pages/carousel.html"><a href="./carousel.html">отзывы</a></option>
+
   <option value=""><a href="#">соцсети</a></option>
-  <option value=""><a href="#">контакты</a></option>
+  <option value="/pages/xarita.html"><a href="./xarita.html">контакты</a></option>
   
 </select>
 
