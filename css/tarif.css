@@ -31,6 +31,9 @@ padding: 30px 0px ;
 text-align: center;
 color: white;
 }
+.card22 p{
+    min-height: 70px;
+}
 .card22 button{
     width: 120px;
     height: 40px;
@@ -91,6 +94,10 @@ margin: auto;
     color: white;
     background-color: #ffffff00;
     padding: 5px 20px;
+    font-size: 23px;
+    position: relative;
+    top: -5px;
+    margin-left: 40px;
     border-radius: 30px;
 }
 @media(max-width:991px){
@@ -99,5 +106,8 @@ margin: auto;
 }
 .title_tarif button{
     padding: 0px 3px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 }
