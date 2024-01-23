@@ -233,10 +233,10 @@ body {
     right: 190px;
 }
 .kurs4_img_div2{
-    width: 182px;
+    width: 12px;
     position: absolute;
     top:70px;
-    right:0px;
+    left:0px;
 }
 .kurs4_img_div3{
     position: absolute;
@@ -258,8 +258,8 @@ body {
 }
 .kurs4_img_div11{
     position: absolute;
-    left: 0px;
-    top: 50px;
+    right: 0px;
+    top: 150px;
     width: 138px;
 
 }
@@ -292,7 +292,7 @@ body {
 }
 
 
-@media(max-width: 770px) {
+/* @media(max-width: 770px) {
   .kurs4_img_div2 {
     width: 100px;
   }
@@ -312,7 +312,7 @@ body {
   .kurs4_img_div13 {
     margin-top: 100px;
   }
-}
+} */
 
 @media(max-width:991px) {
   .kurs4_img_div1 {
@@ -321,7 +321,6 @@ body {
     width: 10vw;
   }
   .kurs4_img_div2 {
-    left: 100px;
     width: 10vw;
     left: -20px;
   }
