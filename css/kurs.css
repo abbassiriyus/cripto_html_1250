@@ -34,6 +34,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 1);
+  margin-top: 30px;
 }
 .card1_text p {
   font-family: "Amiko", sans-serif;
