@@ -46,7 +46,7 @@ flex-wrap: wrap;
     color: white;
     width: 100%;
     min-width: 300px;
-    background-color: #5a5a5a;
+    background-color: #353535;
     border-radius: 100px;
     margin-top: -20px;
 }
@@ -394,15 +394,15 @@ width: 30%;
 }
 .buton_demo{
     font-family: Inter;
-font-size: 32px;
+font-size: 24px;
 font-weight: 500;
-padding: 8px 72px 8px 72px;
+padding: 8px 50px 8px 50px;
 border-radius: 35px;
 gap: 10px;
 border: none;
 margin: auto;
 margin-left: 20%;
-margin-top: 20px;
+margin-top: 30px;
 background-color: #FFA30B;
 }
 @media(max-width:991px){
