@@ -12,10 +12,12 @@ body{
 }
 footer{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
    padding-top: 20px;
    flex-wrap: wrap;
+   width: 90%;
+   margin: auto;
    padding-bottom: 20px;
 }
 footer ul{
@@ -51,7 +53,7 @@ font-family: 'Amiko', sans-serif;
  .footer_link{
    width: 25%;
    min-width: 300px;
-   font-family: Inter;
+   font-family: 'Amiko', sans-serif;
 font-size: 24px;
 font-weight: 400;
 letter-spacing: -1px;
@@ -61,19 +63,26 @@ color: white;
 
  .footer_link a{
    color: white !important;
+   text-decoration: none;
  }
  .footer_link1{
    display: none;
  }
- @media(max-width:1144px){
+ @media(max-width:976px){
    .footer_link1{
        display: block;
    }
    .footer_link2{
        display: none;
      }
+     .footer_page2{
+      margin: auto;
+     }
  } 
- @media(max-width:600px){
+ @media(max-width:668px){
+  footer{
+    width: 100%;
+  }
    .footer_link1{
        display: none;
    }
@@ -101,5 +110,8 @@ width: 90%;
      .footer_link li{
 font-size: 15px;
 line-height: 20px;
+     }
+     .footer_page2{
+      margin-left: 0px;
      }
  }
