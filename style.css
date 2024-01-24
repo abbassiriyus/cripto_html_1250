@@ -477,7 +477,8 @@ justify-content: center;
         background-color: #f39d1291;
        display: flex;
        justify-content: center;
-       flex-direction: column;
+       flex-direction: column
+       ;
     }
     .contact_img{
         position: absolute;
