@@ -26,7 +26,7 @@ list-style: none;
    min-width: 300px;
 }
 .footer_page li{
-font-family: 'Inter', sans-serif;
+font-family: 'Amiko', sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 42px;
@@ -37,10 +37,10 @@ color: white;
 .footer_page li a{
 text-decoration: none;
 color: white;
-font-family: 'Inter', sans-serif;
+font-family: 'Amiko', sans-serif;
 }
 .footer_page2 li{
-   font-family: 'Inter', sans-serif;
+   font-family: 'Amiko', sans-serif;
    font-size: 24px;
    font-weight: 400;
    line-height: 42px;

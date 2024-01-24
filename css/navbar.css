@@ -13,6 +13,7 @@
     line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
+    color: black;
 }
 
 .img_clone {
@@ -277,4 +278,109 @@ select.select {
         5px 5px,
         2.5em 2.5em;
     background-repeat: no-repeat;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-expand-lg{
+    background: #F39D12;
+
+}
+.navbar-expand-lg .navbar-brand img{
+height: 55px;
+
+}
+.navbar-expand-lg .navbar-brand{
+    font-family: 'Comfortaa', sans-serif;
+font-weight: 700;
+font-size: 1.5vw;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.navbar-expand-lg .nav-link{
+font-family: 'Amiko', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+
+}
+.navbar-expand-lg .nav-link i{
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+    color: black;
+}
+.navbar-expand-lg .navbar_btn{
+    padding: 8px 16px 8px 16px;
+    border-radius: 35px;
+background-color: black;
+color: #F39D12;
+}
+.link2{
+    display: none !important;
+}
+
+.navbar2{
+    background: #FFA30B78;
+
+}
+.navbar2 ul{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+    list-style: none;
+}
+.navbar2 ul a{
+    text-decoration: none;
+    font-family: 'Amiko', sans-serif;
+color: white;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+@media (max-width:1200px) and (min-width:991px){
+    .navbar-expand-lg .nav-link{
+        font-family: 'Amiko', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    
+    }
+}
+@media(max-width:991px){
+    .navbar-expand-lg .navbar-brand{
+        font-size: 3vw;
+    }
+  
+    .link2{
+        display: block !important;
+    } 
+    .navbar2{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    .navbar-expand-lg .navbar-brand img{
+        height: 40px;
+    }
+    .navbar-expand-lg .navbar-brand{
+        font-size: 4vw;
+    }
 }
