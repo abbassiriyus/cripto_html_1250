@@ -417,7 +417,6 @@ text-align: center;
 /* contact */
 
 .contact{
-
     background-color: #F39D12;
 display: flex;
 justify-content: space-around;
@@ -474,8 +473,11 @@ justify-content: center;
         position: relative;
         z-index: 1;
         width: 100%;
+        min-height: 500px;
         background-color: #f39d1291;
-        min-height: 300px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
     }
     .contact_img{
         position: absolute;
